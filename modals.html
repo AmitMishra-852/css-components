@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>modals</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" type="text/css" media="screen and (max-width:1200px)" href="/responsive.css">
+
+</head>
+
+<body>
+    <div class="main-container">
+        <!-------------------------------------------sidebar ---------------------------------------------->
+        <div class="sidebar">
+            <div class="logo">
+                <h1 class="hpart">components</h1>
+            </div>
+            <div class="mainlist">
+                <ul class="unorderlist">
+                    <li class="list"><a class="list_a" href="/index.html">Introduction</a></li>
+                    <li class="list"><a class="list_a" href="/button.html">Button</a></li>
+                    <li class="list"><a class="list_a" href="/card.html">card</a></li>
+                    <li class="list"><a class="list_a" id="active" href="/modals.html">Model</a></li>
+                    <li class="list"><a class="list_a" href="/input.html">Input</a></li>
+                    <li class="list"><a class="list_a" href="/badges.html">Badge</a></li>
+                    <li class="list"><a class="list_a" href="/Alert.html">Alert</a></li>
+                    <li class="list"><a class="list_a" href="/Avatar.html">Avatar</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-------------------------------------------- modals ----------------------------------------------->
+        <div class="homepage">
+
+        <!------------------------------------ toggle ---------------------------------------------->
+            <div class="open-toggle">
+                <span class="open-menu-btn" onClick="closeNav()">-</span>
+            </div>
+            <div class="nav-toggle">
+                <span class="closebtn" onClick="openNav()">+</span>
+            </div>
+
+        <!------------------------------------ toggle ---------------------------------------------->
+            <div class="sub-btn-div">
+                <h1>Modals</h1>
+                <p class="homepara">Modals are good for notifying the user about an action on the web page</p>
+            </div>
+            
+
+                <div class="modaltextarea">                
+                    <h2 class="producthead">Modals</h2>
+                    <p class="productpara">Here we have a standard example of a Modal that makes sure user wants to perform an action
+                    </p>
+                </div>
+                <div class="modal-content-area">
+                    <div class="modal-concept-area">
+                        <h2 class="modal-head"><span class="symbol">!</span>Are you sure you want to delete this Item ?</h2>
+                        <button class="modal-btn">yes</button>
+                        <button class="modal-btn">no</button>    
+                    </div>
+
+                    <div class="code-frame-box" id="modalid">
+                        <div class="code-box">
+                            <div>
+                                <span class="red"><</span><span class="blue">h2 class</span>
+                                <span class="red">=</span><span class="blue">"modal-head"</span>
+                                <span class="red">></span>  <span class="red"><</span><span class="blue">span class</span>
+                                <span class="red">=</span><span class="blue">"symbol"</span><span class="red">></span>
+                                <span class="blue">!</span><span class="red">< /</span><span class="blue">span</span>
+                                <span class="blue">></span><span class="blue">Are you sure you want to delete this Item ?</span>
+                                <span class="red">< /</span><span class="blue">h2</span><span class="red">></span>
+                            </div>
+                            <div>
+                                <span class="red"><</span><span class="blue">button class</span><span class="red">=</span> 
+                                <span class="blue">"modal-btn"</span></span><span class="red">></span><span class="blue">yes</span>
+                                 <span class="red"> < /</span> <span class="blue"> button</span><span class="red">></span>
+                            </div>
+                            <div>
+                                <span class="red"><</span><span class="blue">button class</span><span class="red">=</span> 
+                                <span class="blue">"modal-btn"</span></span><span class="red">></span><span class="blue">No</span>
+                                 <span class="red"> < /</span> <span class="blue"> button</span><span class="red">></span>
+                            </div>
+                            
+                        </div>
+
+
+                    </div>
+
+                </div>
+                
+            
+        </div>
+
+    </div>
+<script src="/script.js"></script>
+</body>
+
+</html>

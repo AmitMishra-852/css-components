@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" type="text/css" media="screen and (max-width:1200px)" href="/responsive.css">
+
+</head>
+
+<body>
+    <div class="main-container">
+
+<!---------------------------------------- sidebar ---------------------------------------------------------------------->
+        <div class="sidebar">
+            <div class="logo">
+                <h1 class="hpart">components</h1>
+            </div>
+            <div class="mainlist">
+                <ul class="unorderlist">
+                    <li class="list"><a class="list_a" href="/index.html">Introduction</a></li>
+                    <li class="list"><a class="list_a" href="/button.html">Button</a></li>
+                    <li class="list"><a class="list_a" href="/card.html">card</a></li>
+                    <li class="list"><a class="list_a" href="/modals.html">Model</a></li>
+                    <li class="list"><a class="list_a" href="/input.html">Input</a></li>
+                    <li class="list"><a class="list_a" href="/badges.html">Badge</a></li>
+                    <li class="list"><a class="list_a" id="active" href="/Alert.html">Alert</a></li>
+                    <li class="list"><a class="list_a" href="/Avatar.html">Avatar</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+
+<!-------------------------------------- alert --------------------------------------------------------------->
+
+        <div class="homepage">
+
+<!------------------------------------ toggle ------------------------------------->
+
+            <div class="open-toggle">
+                <span class="open-menu-btn" onClick="closeNav()">-</span>
+            </div>
+            <div class="nav-toggle">
+                <span class="closebtn" onClick="openNav()">+</span>
+            </div>
+            
+<!----------------------------------- toggle -------------------------------------->
+            <div class="sub-btn-div">
+                <h1>Alerts </h1>
+                <!-- <p class="homepara"></p> -->
+            </div>
+            <div class=" id=" >
+                <div class="alert-status">
+                    <h2>Alerts</h2>
+                    <p class="alert-status-para">Change the status of the alerts by passing the respective class. This affects the color scheme and icon
+                        used. Alert supports error and success</p>
+                </div>
+                <div class="alertboxs">
+                        <h3 class="alert-status-example">Example</h3>
+                        <h4 class="box" id="box1">Danger! Indicates a dangerous or potentially negative action</h4>
+                        <h4 class="box" id="box2">Success! Indicates a successful or positive action.</h4>
+                        <h4 class="box" id="box3">Info! Indicates a neutral informative change or action.</h4>
+                        <h4 class="box" id="box4">Warning! Indicates a warning that might need attention.</h4>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="/script.js"></script>
+</body>
+
+</html>

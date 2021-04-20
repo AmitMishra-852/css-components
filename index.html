@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" type="text/css" media="screen and (max-width:1200px)" href="/responsive.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+    <div class="main-container">
+        <!-------------------------------------------- sidebar -------------------------------------------------->
+        <div class="sidebar">
+            <div class="logo">
+                <h1 class="hpart"> components </h1>
+            </div>
+
+            <div class="mainlist">
+                <ul class="unorderlist">
+                    <li class="list" id="active"><a class="list_a" id="active" href="/index.html">Introduction</a>
+                    </li>
+                    <li class="list"><a class="list_a" href="/button.html">Button</a></li>
+                    <li class="list"><a class="list_a" href="/card.html">card</a></li>
+                    <li class="list"><a class="list_a" href="/modals.html">Model</a></li>
+                    <li class="list"><a class="list_a" href="/input.html">Input</a></li>
+                    <li class="list"><a class="list_a" href="/badges.html">Badge</a></li>
+                    <li class="list"><a class="list_a" href="/Alert.html">Alert</a></li>
+                    <li class="list"><a class="list_a" href="/Avatar.html">Avatar</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!----------------------------------------------------------- home ----------------------------------------------->
+
+
+        <div class="homepage">
+
+        <!------------------------------------ toggle ---------------------------------------------->
+            <div class="open-toggle">
+                <span class="open-menu-btn" onClick="closeNav()">-</span>
+            </div>
+            <div class="nav-toggle">
+                <span class="closebtn" onClick="openNav()">+</span>
+            </div>
+        <!------------------------------------ toggle ---------------------------------------------->
+            <div class="introduction" id="introduction-area">
+                <div class="intro">
+                    <h1 class="home_header">Introduction</h1>
+                    <p class="homepara">Quickly design and customize responsive first componant library with <span
+                            class="bowarrow">bow | arrow</span>. the world’s most popular front-end open source toolkit,
+                        featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and
+                        powerful JavaScript plugins.
+                    </p>
+                </div>
+
+                <div class="basic_info">
+                    <div class="basicinfoarea">
+                        <h2 class="basic-info-header">Include in your HTML</h2>
+                        <p class="basic-info-para">Below provided are the CSS and Javascript Links you can include in
+                            the
+                            header of your HTML and
+                            access classes provided in the Docs on your elements
+                        </p>
+                        <div class="code-frame-box">
+                            <div class="code-box">
+                                <div>
+                                    <span class="red">< link </span><span class="blue">rel</span>
+                                            <span class="red">=</span><span class="blue">"stylesheet" </span>
+                                            <span class="blue"> href</span><span class="red">=</span><span
+                                                class="blue">"/style.css"</span>
+                                            <span class="red">></span>
+                                </div>
+                                <div>
+                                    <span class="red"><</span><span class="blue">script src</span>
+                                            <span class="red">=</span><span class="blue">"/script.js"</span>
+                                            <span class="red">></span><span class="red">
+                                                <</span>
+                                                    <span class="blue">/script</span><span class="red">></span>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <hr>
+        </div>
+    </div>
+    <script src="/script.js"></script>
+</body>
+
+</html>

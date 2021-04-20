@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>input</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" type="text/css" media="screen and (max-width:1200px)" href="/responsive.css">
+
+</head>
+
+<body>
+    <div class="main-container">
+        <!-------------------------------------- sidebar ----------------------------------------------------->
+        <div class="sidebar">
+            <div class="logo">
+                <h1 class="hpart">components</h1>
+            </div>
+            <div class="mainlist">
+                <ul class="unorderlist">
+                    <li class="list"><a class="list_a" href="/index.html">Introduction</a></li>
+                    <li class="list"><a class="list_a" href="/button.html">Button</a></li>
+                    <li class="list"><a class="list_a" href="/card.html">card</a></li>
+                    <li class="list"><a class="list_a" href="/modals.html">Model</a></li>
+                    <li class="list"><a class="list_a" id="active" href="/input.html">Input</a></li>
+                    <li class="list"><a class="list_a" href="/badges.html">Badge</a></li>
+                    <li class="list"><a class="list_a" href="/Alert.html">Alert</a></li>
+                    <li class="list"><a class="list_a" href="/Avatar.html">Avatar</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+<!--------------------------------------------------------- input---------------------------------------------->
+        <div class="homepage" id="input-area">
+            <!-------------------------------- toggle ---------------------------------------------->
+            <div class="open-toggle">
+                <span class="open-menu-btn" onClick="closeNav()">-</span>
+            </div>
+            <div class="nav-toggle">
+                <span class="closebtn" onClick="openNav()">+</span>
+            </div>
+            <!-------------------------------- toggle end------------------------------------------->
+
+
+            <div class="sub-btn-div">
+                <h1>Input</h1>
+                <p class="homepara">The Input component is a component that is used to get user input in a text field.</p>
+            </div>
+            <div>
+                <div class="input-discribe">
+                    <div class="about-input">
+
+                        <h2 class="input-discribe-header">
+                            <span class="red"><</span><span >input</span><span class="red">></span>
+                        </h2>
+                        <p class="input-discribe-para">The <span class="red"><</span>input <span class="red">></span> tag specifies an input field where the user can enter data.</p>
+                        <p class="input-discribe-para">The <span class="red"><</span>input <span class="red">></span>  element is the most important form element.</p>
+                        <p class="input-discribe-para">The <span class="red"><</span>input <span class="red">></span> element can be displayed in several ways, depending on the type attribute.</p>
+                    </div>
+                    <div class="input-element">
+                        <input class="input-field" type="text" placeholder="Enter Input">
+                        <div class="code-frame-box">
+                            <div class="code-box" id="inputid">
+                                   <span class="red"><</span><span class="blue">input class</span><span class="red">=</span><span class="blue">"input-field" type <span class="red">=</span><span class="blue"> "text"</span><span class="red">></span>                                   
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/script.js"></script>
+</body>
+
+</html>

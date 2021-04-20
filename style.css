@@ -1,0 +1,567 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+}
+html, body{
+    overflow-x:hidden;
+}
+.Entrance-page{
+    display: flex;
+}
+
+.textArea{
+    width:800px;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ec1839;
+    color:#d5ebff;
+    
+}
+.span{
+    color:rgb(25, 25, 44);
+    font-family:'Orbitron', sans-serif;
+    
+}
+.span1{
+    color:rgb(25, 25, 44);
+    font-size: 15px;
+    font-weight: bold;
+    font-family:'Orbitron', sans-serif;
+}
+.header{
+    font-size: 35px ;
+    font-family:'Orbitron', sans-serif;
+}
+.paragraph {
+    font-size: 15px ;
+    font-family: sans-serif;
+    line-height: 40px;   
+}
+.img_btn_area{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 830px;
+    height: 100vh;
+    display: flex;
+    align-items:center;
+    justify-items: center;
+}
+.btn{
+    width:200px;
+    padding:10px;
+    margin:20px;
+    margin-left: 50px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    color:white;
+    background-color: rgb(55, 55, 71);
+    box-shadow: 2px 2px 5px rgb(18, 18, 31) ;
+    border-radius: 5px;
+    transition:all ease 0.3s;
+    
+}
+.btn:hover{
+    transform:scale(1.1);
+}
+.fas{
+    color:white;
+}
+.mainlg{
+    position:absolute;
+    left: 5px;
+    top: 5px;
+    border-radius: 10px 0 10px 0;
+    padding: 10px;
+    color:rgb(36, 36, 54);
+}
+.arrow{
+    padding: 6px;
+    border-right: 2px solid rgb(36, 36, 54);
+    color:rgb(36, 36, 54);
+    font-weight: bolder;
+    
+    
+}
+.bow{
+    padding: 6px;
+    color:rgb(36, 36, 54);
+    font-weight: bolder;
+    
+}
+
+
+.social-links{
+    margin:20px;
+    
+}
+.fa{
+    width:20px;
+    height: 20px;
+    text-align: center;
+    padding:10px;
+    margin: 10px;
+    color:rgb(25, 25, 44);
+   background-color: white;
+   border-radius: 50%;
+   font-size: 20px;
+   transition:all ease 0.3s;
+}
+
+.fa:hover{
+    transform: scale(1.1);
+}
+
+/* --------------------------------------------main page------------------------------------------ */
+
+
+.sidebar{
+    width:250px;
+    position:fixed;
+    left:0;
+    top: 0;
+    height: 100vh;
+    background-color:#f6e4ff ;
+    z-index: 1;
+    transition: all ease 0.5s !important;
+    overflow: hidden!important;
+    
+}
+
+
+/* ------------------------------------------------------------ */
+
+.open-toggle{
+     color: #ec1839;
+     font-size: 25px;
+ }
+
+.open-toggle{
+    height: 30px;
+    min-width: 35px;
+    text-align: center;
+    background-color:#ec1839 ;
+    /* padding: 2px; */
+    font-size: 22px;
+    color:white;
+    /* border-radius:5px; */
+    cursor: pointer;
+    position: fixed;
+    right:0px;
+    top:0px;
+    z-index:2;
+    /* border:1px solid black; */
+}
+.nav-toggle{
+    height: 40px;
+    min-width: 35px;
+    text-align: center;
+    background-color:#f6e4ff ;
+    font-size: 22px;
+    color:#ec1839;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    position: fixed;
+    left:250px;
+    top:0px;
+    z-index: 1;
+}
+.closebtn{
+    font-size: 25px;
+}
+/* ----------------------------------------------------------------- */
+
+.homepage{ 
+    margin-left:250px ;
+    height: 170vh;
+    background-color: #e4e4fd;
+    
+
+}
+.logo{
+    width:180px;
+    font-size: 15px;
+    margin:20px;
+    padding:25px 10px 25px 20px;
+    border-radius: 5px;
+    background-color:#f16e82;
+    box-shadow: 2px 2px 5px #ec1839 ;
+}
+.hpart{
+    font-size: 22px;
+    font-family:'Orbitron', sans-serif;;
+}
+.unorderlist .list{
+    padding:10px 10px 10px 20px;
+    margin: 10px;
+    border-bottom:1px solid #e0b9bf ;
+    font-weight:bold;
+
+}
+.unorderlist .list .list_a{
+    text-decoration: none;
+    color:rgb(25, 25, 44);
+    font-weight: 700;
+    font-size: larger;
+}
+#active{
+    color:#ec1839;
+}
+
+.intro{
+    padding: 20px 30px 30px 20px ;
+    line-height: 30px;
+    box-shadow: 0 5px 8px -9px rgba(0,0,0,0.75);
+    /* overflow-x: auto; */
+
+}
+.home_header{
+    font-size: 45px;
+}
+.homepara{
+    padding:10px; 
+    font-size: 20px;
+}
+.bowarrow{
+    font-size: 30px;
+    color: #ec1839;
+}
+.basic_info{
+    margin:30px ;   
+}
+.basic-info-para{
+    margin:6px 6px 6px 5px;
+    line-height: 25px;
+    font-size: large;
+
+}
+.basicinfoarea{
+    padding: 30px 10px 45px 10px;
+    margin:30px;
+}
+
+.code-frame-box {
+    padding: 20px;
+    background-color:rgb(118, 118, 139) ;
+    margin:30px 10px 10px 5px;
+}
+.code-box{
+    padding: 30px;
+    background-color:rgb(46, 46, 73) ;
+    line-height: 40px;
+    font-size: larger;
+    box-shadow: 5px 5px 10px rgb(17, 17, 39) ;
+
+}
+.red{
+    color:#ec1839;
+}
+.blue{
+    color:white;
+}
+
+
+/* -----------------------------------button--------------------------------------------- */
+
+.sub-btn-div{
+    
+    padding:20px 5px 10px 20px;
+    box-shadow: 0 5px 8px -9px rgba(0,0,0,0.75);
+}
+.btnmainpart{
+    border:1px solid rgb(185, 184, 184);
+    margin:20px;
+}
+.btn-area{
+    margin:5px;
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.twobtn{
+    margin:5px;
+    padding: 10px 30px 5px 10px;
+    line-height: 40px;
+    display:flex;
+    flex-direction: row;
+}
+.each-btn{
+    margin:5px 15px;
+    padding:5px 15px;
+}
+.btn2{
+    padding:10px;
+    width:150px;
+    background-color:#ec1839 ;
+    box-shadow: 2px 2px 4px #8f2333;
+    border: 1px solid  rgb(18, 18, 31);
+    border:none;
+    transition:all ease 0.3s;
+    font-size: larger;
+    font-weight: bolder;
+}
+.btn2:hover{
+    transform:scale(1.1);
+}
+#btnid{
+    text-decoration:none; 
+}
+#id-frame-box{
+    margin:0;
+}
+
+
+/*=-------------------------------------------------------- alert------------------------------------------- */
+.alert{  
+    margin: 20px;
+}
+.alert-status{
+    margin:20px;
+    
+}
+.alert-status-example{
+    color:white;
+}
+.alert-status-para{
+    padding:10px;
+}
+.alertboxs{
+    border:1px solid black;
+    padding:20px;
+    background-color: rgb(48, 48, 68) ;
+}
+.box{
+    margin:20px 0 20px 0;
+    padding: 30px;
+    box-shadow: 5px 5px 10px rgb(17, 17, 39) ;
+}
+#box1{
+    background-color:#ec1839 ;
+}
+   
+#box2{
+    background-color:#ffb400 ;
+}
+  
+#box3{
+    background-color:#72b626 ;
+}
+   
+#box4{
+    background-color:#8566aa ;
+}
+/*------------------------------------------------- badges---------------------------------------- */
+
+.badgespage {
+    margin-left:250px ;
+    height:160vh;
+    background-color: #e4e4fd;
+}
+.allbadgesheads{
+    border:1px solid rgb(185, 184, 184);
+    margin:25px;
+}
+.sub-allbadgesheads{
+    padding:30px 20px 30px 30px ;
+}
+.badges-head-1{
+    padding:20px; 
+    font-size: 40px;
+}
+.badges-head-2{
+    padding:20px; 
+    font-size: 34px;
+
+}
+.badges-head-3{
+    padding:20px; 
+    font-size: 30px;
+}
+.badges-head-4{
+    padding:20px;
+    font-size:25px;
+}
+.badges-head-5{
+    padding:20px;
+    font-size:20px;
+}
+.badges-head-6{
+    padding:20px; 
+    font-size:15px;
+}
+
+.b-h-span{
+  padding:10px;
+  background-color:#7e52b4 ;
+  border-radius:10px;
+}
+.badgesexample-head{
+    padding:10px 0 10px 10px;
+}
+#outter-box{
+    margin:0;
+}
+/*-------------------------------------------------- card -------------------------------------------*/
+
+
+.cardinfo{
+ margin:20px;
+}
+.cardpara{
+    padding:15px;
+}
+
+.cardproduct{
+    border:1px solid rgb(192, 190, 190);
+    margin:30px;
+}
+.watchinfo{
+    padding:10px;
+}
+.main-card-product{    
+    margin:auto;
+    margin-top:45px ;
+    margin-bottom:45px ;
+    width:250px;
+    height:431px;
+    border-radius:6px 6px 6px 6px;
+    box-shadow: 5px 5px 8px -9px rgba(0,0,0,0.75);
+}
+.cardimg{
+    border-radius:5px 5px 0px 0px;
+}
+.cardbtn{
+    width:250px;
+    padding:10px;
+    background-color:#454546 ;
+    border:none;
+    border: 3px solid rgb(71, 71, 71);
+    border-radius:0 0 6px 6px;
+    color:white;
+    font-size: 17px;
+}
+.head-btw-card{
+    margin: 5px 500px 30px 495px;
+    display: inline-block;
+}
+#cardid{
+    margin:0;
+}
+
+
+/* -----------------------------------------------------modals-------------------------------------------- */
+
+.modaltextarea{
+    margin:20px;
+}
+.modalarea{
+    margin:20px;
+    padding: 20px;
+}
+.productpara{
+    padding:10px;
+    font-size: large;
+}
+.modal-content-area{
+    border: 1px solid rgb(158, 155, 155);
+    margin:30px;
+}
+.modal-concept-area{
+    margin:30px 230px;
+    padding:20px;
+    text-align: center;
+    border: 2px solid black;
+    display: inline-block;
+}
+.symbol{
+    padding: 5px 20px;
+    margin:10px;
+    font-size:30px;
+    border-radius: 50%;
+    color:white;
+    background-color: #ec1839;
+    
+}
+.modal-btn{
+    margin:20px;
+    padding:10px 20px;
+    font-size: larger;
+    font-weight: bolder;
+    border:2px solid rgb(25, 25, 44);
+    border-radius:5px;
+    transition: all ease 0.3s;
+
+}
+.modal-btn:hover{
+   transform: scale(1.1);
+   background-color:#ec1839 ;
+   border: none;
+}
+#modalid{
+    margin:0;
+}
+
+/*------------------------------------------ input-------------------------------------------------- */
+.input-discribe{
+    margin:30px;
+}
+
+.input-discribe-para{
+    padding:15px;
+    font-size: 18px;
+}
+.input-element{
+    border: 1px solid rgb(168, 168, 168);
+    margin:30px;
+}
+
+.input-field{
+    padding:15px;
+    max-width:300px;
+    margin:30px 300px  30px 300px;
+    
+    border: 2px solid black;
+
+}
+.inputid{
+    margin: 0;
+}
+
+/*----------------------------------------------- Avatar------------------------------------------------ */
+
+.input-inner{
+    margin:30px;
+}
+.input-inner-para{
+    padding:20px;
+}
+.Avatar-border-area{
+    border:1px solid rgb(155, 153, 153);
+    margin: 30px;
+}
+.Avatar-img{
+    margin:20px;
+    border-radius: 50%;
+}
+.Avatar-code{
+   margin:10;
+}
+
+/*------------------------ responsive index--------------------------------- */
+  
+
+
+
+
+
+
+

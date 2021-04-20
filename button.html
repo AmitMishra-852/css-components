@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>button</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" type="text/css" media="screen and (max-width:1200px)" href="/responsive.css">
+
+
+</head>
+<body>
+    <div class="main-container">
+
+<!------------------------------------------ sidebar ----------------------------------------------->
+
+        <div class="sidebar">
+            <div class="logo">
+                <h1 class="hpart">components</h1>
+            </div>
+            <div class="mainlist">
+                <ul class="unorderlist">
+                    <li class="list"><a class="list_a" href="/index.html">Introduction</a></li>
+                    <li class="list"><a class="list_a" id="active" href="/button.html">Button</a></li>
+                    <li class="list"><a class="list_a" href="/card.html">card</a></li>
+                    <li class="list"><a class="list_a" href="/modals.html">Model</a></li>
+                    <li class="list"><a class="list_a" href="/input.html">Input</a></li>
+                    <li class="list"><a class="list_a" href="/badges.html">Badge</a></li>
+                    <li class="list"><a class="list_a" href="/Alert.html">Alert</a></li>
+                    <li class="list"><a class="list_a" href="/Avatar.html">Avatar</a></li>
+                    
+                   
+                </ul>
+            </div>
+        </div>
+
+<!--------------------------------------------- button ------------------------------------------------>
+
+        <div class="homepage">
+<!-------------------------------- toggle ---------------------------------------------->
+            <div class="open-toggle">
+                <span class="open-menu-btn" onClick="closeNav()">-</span>
+            </div>
+            <div class="nav-toggle">
+                <span class="closebtn" onClick="openNav()">+</span>
+            </div>
+<!-------------------------------- toggle ---------------------------------------------->
+
+            <div class="button" >
+                <div class="sub-btn-div">
+                    <h1>Button</h1>
+                    <p class="homepara">The <span class="red"><</span> button <span class="red">></span> tag defines a clickable button.</p>
+                </div>
+            
+                <div class="btnmainpart">
+                    
+                       <div class="btn-area">
+                           <div class="twobtn">
+                               <div class="each-btn">
+                                   <button class="btn2" disabled>button</button>
+                                   <h3 class="btn-text">Disable button</h3>
+                                </div>
+                                <div class="each-btn">
+                                    <button class="btn2">button</button>
+                                    <h3 class="btn-text">Active click button</h3>
+                                </div>
+                            </div>
+
+                            <div class="twobtn">
+                                <div class="each-btn">
+                                    <button class="btn2" onClick={myFunction}>button</button>
+                                    <h3 class="btn-text">Event button </h3>
+                                </div>
+                                <div class="each-btn">
+                                    <button class="btn2">button</button>
+                                    <h3 class="btn-text">Normal click button</h3>
+                                </div>
+                            </div>
+                            <div class="twobtn">
+                                <div class="each-btn">
+                                    <button class="btn2">Add to card</button>
+                                    <h3 class="btn-text">Add to card</h3>
+                                </div>    
+                                <div class="each-btn">
+                                    <button class="btn2" id="btnid"><a href="#introduction-area"> button</a></button>
+                                    <h3 class="btn-text">Link button</h3>
+                                </div>
+                            </div>
+
+                        </div>
+            
+                    
+                    <div class="code-frame-box"  id="id-frame-box">
+                        <div class="code-box" >
+                            <div>
+                                <span class="red"><</span><span class="blue">button class</span>
+                                <span class="red">=</span><span class="blue">"btn2"</span> 
+                                <span class="blue">"btn2"</span><span class="blue">disabled</span>
+                                <span class="red">></span><span class="blue"> button</span> <span class="red">< /</span>
+                                <span class="blue">button</span> <span class="red">></span>
+                            </div>
+                            <div>
+                                <span class="red"><</span><span class="blue">button class</span>
+                                <span class="red">=</span> <span class="blue">"btn2"</span>
+                                </span><span class="red">></span><span class="blue">button</span> 
+                                <span class="red"> < /</span> <span class="blue"> button</span>
+                                <span class="red">></span>
+                            </div>
+                            <div>
+                                <span class="red"><</span><span class="blue">button class</span>
+                                <span class="red">=</span> <span class="blue">"btn2"</span>
+                                </span><span class="red">></span> <span class="blue"> button</span>
+                                <span class="red">< /</span> <span class="blue">button</span> 
+                                <span class="red">></span>
+                            </div>
+                            <div>
+                                <span class="red"><</span><span class="blue">button class</span>
+                                <span class="red">=</span>
+                                <span class="blue">"btn2"</span></span><span class="red">></span>
+                                <spam class="blue">Add to Card</spam><span class="red">< / </span>
+                                <span class="blue">button </span> <span class="red">></span>
+                            </div>
+                            <div>
+                                <span class="red"><</span><span class="blue">button class</span>
+                                <span class="red">=</span> <span class="blue">"btn2"</span>
+                                <span class="blue">id="btnid" </span>
+                                <span class="red">></span><span class="red"> < a </span>
+                                <span class="blue">href="#introduction-area"</span>
+                                <span class="red">></span><span class="blue"> button </span>
+                                <span class="red"><</span><span class="red"> / a></span>
+                                <span class="red">< /</span> <span class="blue">button<span class="red">></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div> 
+
+ <script src="/script.js"></script>
+    
+</body>
+
+</html>
+</body>
+</html>

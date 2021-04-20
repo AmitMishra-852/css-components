@@ -1,0 +1,502 @@
+
+@media (max-width:1199px){
+    .sidebar{
+        left:-250px;
+        overflow: hidden;
+
+       
+    }
+    .homepage{
+        margin-left:0 ;
+    }
+    .nav-toggle{
+        left:0;
+    }
+}
+
+
+@media (max-width:620px){
+    .homepage{
+        height: 170vh;
+     }
+    .home_header{
+        font-size: 35px;   
+     }
+     .homepara{
+         font-size: 20px;   
+     }
+     .bowarrow{
+         font-size: 25px;   
+     }
+     .basic_info{
+         margin:15px;  
+     }
+     .basic-info-para{
+         margin:6px 6px 6px 5px;
+         font-size: 20;
+     
+     }
+     .basicinfoarea{
+        padding: 20px 10px 35px 10px;
+        margin:15px;
+    }
+}
+@media (max-width:575px){
+    .homepage{
+       height: 170vh;
+    }
+}
+@media (max-width:565px){
+    .homepage{
+        height: 170vh;
+     }
+ }
+
+
+
+@media (max-width:560px){
+    .homepage{
+        height: 170vh;
+     }
+    .home_header{
+        font-size: 25px;   
+     }
+     .homepara{
+         font-size: 15px;   
+     }
+     .bowarrow{
+         font-size: 17px;   
+     }
+     .basic_info{
+         margin:10px;  
+     }
+     .basic-info-para{
+         margin:4px 4px 4px 4px;
+         font-size: 15px;
+     }
+     .basicinfoarea{
+        padding: 10px 7px 20px 7px;
+        margin:11px;
+    }
+    .code-frame-box {
+        padding: 20px;
+        margin:20px 7px 7px 5px;
+    }
+    .code-box{  
+        padding: 15px;
+        background-color:rgb(46, 46, 73) ;
+        font-size: 15px;
+        box-shadow: 5px 5px 10px rgb(17, 17, 39) ;
+    }
+    
+}
+@media (max-width:450px){
+  
+    .homepage{
+        height: 200vh;
+    }
+
+    .homepara{
+        font-size: 15px;   
+    }
+    .bowarrow{
+        font-size: 15px;   
+    }
+    .basic-info-para{
+        margin:4px 4px 4px 4px;
+        font-size: 15px;
+    }
+    
+}
+@media (max-width:390px){
+    .homepage{  
+        height: 200vh;
+    }
+   
+}
+@media (max-width:380px){
+    .homepage{  
+        height: 200vh;   
+    }
+    .code-box{
+        font-size: 10px;
+    }
+    .homepara{
+        font-size: 15px;   
+    }
+    .bowarrow{
+        font-size: 15px;   
+    }
+    .basic-info-para{
+        margin:4px 4px 4px 4px;
+        line-height: 20px;
+        font-size: 12px;
+    }
+  
+   
+}
+@media (max-width:375px){
+    .homepage{  
+        height: 200vh; 
+    }
+    .homepara{
+        font-size: 15px;   
+    }
+    .bowarrow{
+        font-size: 17px;   
+    }
+    .basic-info-para{
+        margin:4px 4px 4px 4px;
+        font-size: 15px;
+    }
+}
+@media (max-width:365px){
+    .homepage{  
+        height: 180vh;
+    }
+}
+@media (max-width:325px){
+    .homepage{  
+        height: 240vh;
+    }
+}
+
+
+@media (max-width:300px){
+    .homepage{  
+        height: 210vh;
+    }
+}
+
+
+/*------------------------------------------ button -----------------------------------------------*/
+
+
+@media (max-width:520px){
+    .button{
+        height: 145vh;
+    }
+    .btnmainpart{
+        margin:15px;
+    }
+    .twobtn{
+        margin:5px;
+        padding: 5px 10px 5px 10px;
+        line-height: 30px;
+    }
+    .each-btn{
+        margin:5px 5px;
+        padding:5px 5px;
+    }
+  
+}
+@media (max-width:400px){
+    .btnmainpart{
+        margin:10px;
+    }
+    .twobtn{
+        margin:5px;
+        padding: 5px;
+        line-height: 30px;
+    }
+    .each-btn{
+        margin:3px 3px;
+        padding:3px 3px;
+    }
+    .btn2{
+        padding:7px 7px;
+        width:150px; 
+        font-size: large;
+        font-weight: bold;
+    }
+    .btn-text{
+        font-size: 17px;
+    }
+@media (max-width:400px){
+    .btnmainpart{
+        margin:10px 5px 5px 5px;
+    }
+    .each-btn{
+        margin:3px 3px;
+        padding:3px 3px;
+    }
+}
+@media (max-width:350px){
+    .btn2{
+        width:120px; 
+        font-size: 15px;      
+    }
+}
+@media (max-width:280px){
+    .btn2{
+        width:105px; 
+        font-size: 11px;
+        padding:7px 7px;      
+    }
+}
+
+
+/*----------------------------------------- card ------------------------------------------------------*/
+
+@media (max-width:360px){
+    .cardimg{
+       width:200px;
+       height:250px;
+   }
+   .cardbtn{
+      width:200px;
+      font-size: 15px;
+    }
+ 
+   .main-card-product{    
+      width:200px;
+      height:400px;
+   }
+   .cardproduct{
+    margin:20px;
+   }
+   .main-card-product{    
+       margin:35px;
+    }
+
+
+}
+@media (max-width:315px){
+    .main-card-product{    
+        margin:20px;
+     }
+}
+
+
+
+/*----------------------------------------- modals------------------------------------------------------*/
+@media (max-width:1100px){
+    .commondiv{
+        margin-left:0;
+        height:150vh;
+    }
+    .modal-concept-area{
+        margin:30px 150px;
+        padding:20px; 
+    }
+}
+@media (max-width:770px){
+    .modal-concept-area{
+        margin:30px 70px;
+        padding:20px; 
+    }
+    .commondiv{
+        height:120vh;
+    }
+}
+@media (max-width:670px){
+    .modal-concept-area{
+        margin:30px 140px;
+        padding:20px;
+    }
+}
+
+@media (max-width:650px){
+    .commondiv{
+        height:130vh;
+    }
+    .modal-concept-area{
+        margin:30px 140px;
+        padding:20px;
+    }
+}
+
+@media (max-width:470px){
+    .commondiv{
+        height:140vh;
+    }
+    .modal-concept-area{
+        margin:20px 50px;
+        padding:20px;
+    }
+}
+@media (max-width:420px){
+    .commondiv{
+        height:150vh;
+    }
+    .modal-concept-area{
+        margin:10px 10px;
+        padding:15px; 
+    }
+}
+
+@media (max-width:360px){
+    .commondiv{
+        height:150vh;
+    }
+    .modal-concept-area{
+        margin:10px 10px;
+        padding:15px; 
+    }
+}
+@media (max-width:322px){
+    .commondiv{
+        height:270vh;
+    }
+    .modal-concept-area{
+        margin:10px 10px;
+        padding:10px;
+       
+    }
+    .modal-content-area{    
+        margin:15px;
+    }
+}
+@media (max-width:380px){
+    .commondiv{
+        height:160vh;
+    }
+    .modal-concept-area{
+        margin:15px 20px;
+        padding:15px;
+    }
+}
+
+@media (max-width:280px){
+    .commondiv{
+        height:170vh;
+    }
+}
+
+/*------------------------------------- input ----------------------------------------------------------------*/
+
+@media (max-width:920px){
+    .input-field{
+        padding:15px;
+        max-width:300px;
+        margin:20px 200px;
+    } 
+}
+
+@media (max-width:420px){
+   
+    .input-field{
+    padding:15px;
+    max-width:300px;
+    margin:20px 55px  20px 55px;
+} 
+    .input-element{
+        margin:20px; 
+    }
+}
+
+@media (max-width:360px){
+    .input-field{
+        padding:15px;
+        max-width:300px;
+        margin:15px 35px  15px 35px;
+    } 
+    .input-element{
+        margin:15px; 
+    }
+    .homepage{  
+        height: 180vh;
+    }
+   
+}
+@media (max-width:320px){
+    .input-field{
+        padding:15px;
+        max-width:150px;
+        margin:7px 42px  7px 42px;
+    } 
+    .input-element{
+        margin:15px; 
+    }
+  
+    .input-discribe{
+        margin:10px;
+    }
+    .homepage{  
+        height: 190vh;
+    }
+}
+@media (max-width:280px){
+    .input-field{
+        padding:15px;
+        max-width:150px;
+        margin:7px 30px  7px 30px;
+    } 
+    .input-element{
+        margin:7px;
+    }
+    .input-discribe{
+        margin:5px;
+    }
+}
+/*--------------------------------------------------- badges------------------------------------------ */
+@media (max-width:1100px){
+.badgespage {
+    margin-left:0;
+   }
+}
+@media (max-width:890px){
+    .badgespage {
+      
+        height:110vh;
+    } 
+}
+@media (max-width:440px){
+    .allbadgesheads{
+        margin:15px;
+    }
+    .sub-allbadgesheads{
+        padding:20px 10px 20px 10px ;
+    }
+
+}
+@media (max-width:400px){
+    .badges-head-1{
+        padding:12px; 
+        font-size: 20px;
+    }
+    .badges-head-2{
+        padding:12px; 
+        font-size: 16px;
+    }
+    .badges-head-3{
+        padding:12px; 
+        font-size: 14px;
+    }
+    .badges-head-4{
+        padding: 12px;
+        font-size:12px;
+    }
+    .badges-head-5{
+        padding:12px;
+        font-size:10px;
+    }
+    .badges-head-6{
+        padding:12px; 
+        font-size:8px;
+    }
+}
+
+/*--------------------------------------------------- Avatar----------------------------------------- */
+
+@media (max-width:685px){
+   
+    .Avatar-border-area{
+        margin: 20px;
+    }
+}
+@media (max-width:560px){
+
+    .Avatar-border-area{
+        margin: 15px;
+    }
+}
+
+@media (max-width:420px){
+  
+    .Avatar-border-area{
+        margin: 5px;
+    }
+}
+
+}
